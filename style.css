@@ -1,0 +1,36 @@
+/* h1{
+  color:green;
+}
+
+button{
+  color:red;
+  background-color:rgb(255,255,0);
+}
+
+body{
+  background-color: #e2afe2;
+} */
+
+/* Universal selector */
+*{
+  color:rgb(13, 116, 147)
+}
+
+/* Element selector */
+p{
+  color:#ff0000;
+}
+
+/* Id selector */
+#head1{
+  color:rgb(190, 60, 182)
+}
+
+#head2{
+  color:crimson;
+}
+
+/* class selector */
+.myclass{
+  color:darkgoldenrod;
+}
