@@ -1,51 +1,11 @@
 #para1{
-  text-align: center;
+  font-family:'Times New Roman', Times, serif;
 }
+
 #para2{
-  text-align: left;
+  font-family: Georgia;
 }
+
 #para3{
-  text-align: right;
+  font-family: Arial;
 }
-
-#head1{
-  text-decoration: dotted underline;
-  text-align: center;
-}
-
-#head2{
-  text-decoration: red  wavy overline;
-  text-align: start;
-}
-
-#head3{
-  text-decoration: green dashed line-through;
-  text-align: end;
-}
-
-#head4
-{
-  font-weight: lighter;
-}
-
-#head5
-{
-  font-weight: normal;
-}
-
-#head6{
-  font-weight: bold;
-}
-
-#head7{
-  font-weight: bolder;
-}
-
-#head8{
-  font-weight: 100;
-}
-
-#head9{
-  font-weight: 900;
-}
-
