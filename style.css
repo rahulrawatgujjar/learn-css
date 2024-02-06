@@ -8,4 +8,5 @@ div{
   background-color: rgb(250, 180, 215);
   height: 100px;
   width: 100px;
+  text-align: end;
 }
