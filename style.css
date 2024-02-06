@@ -1,9 +1,6 @@
-div{
-  background-color: rgb(250, 180, 215);
+div {
   height: 100px;
   width: 100px;
-  text-align: start;
-  border: 5px solid rgb(33, 244, 255);
-  padding: 10px;
-  margin-bottom: 10px;
+  background-color:green;
+  border-radius:50%;
 }
