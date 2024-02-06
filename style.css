@@ -1,11 +1,14 @@
 #para1{
-  font-family:'Times New Roman', Times, serif;
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: lowercase;
 }
 
 #para2{
-  font-family: Georgia;
+  text-transform: uppercase;
 }
-
 #para3{
-  font-family: Arial;
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: capitalize;
 }
