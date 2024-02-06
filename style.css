@@ -1,4 +1,7 @@
-#head1{
-  text-align: center; 
-  text-transform: capitalize;
+#outter{
+  font-size: 25px;
+}
+
+#inner{
+  font-size: 10px;
 }
