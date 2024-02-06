@@ -1,14 +1,4 @@
-#para1{
-  font-size: 10px;
-  line-height: 15px;
-  text-transform: lowercase;
-}
-
-#para2{
-  text-transform: uppercase;
-}
-#para3{
-  font-size: 21px;
-  line-height: 21px;
+#head1{
+  text-align: center; 
   text-transform: capitalize;
 }
