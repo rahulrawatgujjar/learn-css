@@ -1,16 +1,8 @@
-#div1{
+div{
   background-color: rgb(250, 180, 215);
   height: 100px;
   width: 100px;
   text-align: start;
-  border-width: 5px;
-  border-style: solid;
-  border-color: rgb(33, 244, 255);
-}
-
-#div2{
-  background-color: rgb(250, 180, 215);
-  height: 100px;
-  width: 100px;
-  border: 5px dotted rgb(33, 244, 255)
+  border: 5px solid rgb(33, 244, 255);
+  border-radius: 10px;
 }
