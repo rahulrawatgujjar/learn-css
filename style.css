@@ -23,3 +23,29 @@
   text-align: end;
 }
 
+#head4
+{
+  font-weight: lighter;
+}
+
+#head5
+{
+  font-weight: normal;
+}
+
+#head6{
+  font-weight: bold;
+}
+
+#head7{
+  font-weight: bolder;
+}
+
+#head8{
+  font-weight: 100;
+}
+
+#head9{
+  font-weight: 900;
+}
+
