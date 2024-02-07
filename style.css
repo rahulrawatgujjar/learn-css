@@ -6,3 +6,11 @@ div{
   margin: 10px;
   display: inline-block;
 }
+
+#div2{
+  display: none;
+}
+
+#div1{
+  visibility: hidden;
+}
