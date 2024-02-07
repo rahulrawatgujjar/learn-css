@@ -1,8 +1,8 @@
 div{
   background-color:aqua;
-  display:inline;
-}
-button{
-  background-color: pink;
-  display:block;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  display: inline;
 }
