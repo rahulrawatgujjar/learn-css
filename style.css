@@ -7,6 +7,6 @@ div{
 }
 
 #box2{
-  position: absolute;
+  position: fixed;
   right: 20px;
 }
