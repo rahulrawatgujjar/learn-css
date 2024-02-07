@@ -1,6 +1,8 @@
 div{
   background-color:aqua;
+  display:inline;
 }
 button{
   background-color: pink;
+  display:block;
 }
