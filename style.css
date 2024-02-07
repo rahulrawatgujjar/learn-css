@@ -1,28 +1,6 @@
-*{
-  padding: 0px;
-  margin: 0px;
-  color: white
+div{
+  background-color:aqua;
 }
-
-#navbar {
-  background-color: #0f1111;
-  height: 60px;
-}
-
-#logo {
-  color:#c48313;
-  font-size: 25px;
-}
-
-button {
-  background-color:#c48313;
-}
-
-a {
-  margin-right: 120px;
-  text-decoration: none;
-}
-
-input {
-  color:black;
+button{
+  background-color: pink;
 }
