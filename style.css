@@ -3,9 +3,12 @@ div{
   width:100px;
   height: 100px;
   display: inline-block;
+  border: 1px solid black;
 }
 
-#box1{
-  position: static;
+#box2{
+  position: relative;
   top: 10px;
+  left: 10px;
+
 }
