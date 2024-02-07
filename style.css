@@ -7,10 +7,14 @@ div{
   display: inline-block;
 }
 
-#div2{
-  display: none;
+#div1{
+  background-color: rgba(255,0,0,1)
 }
 
-#div1{
-  visibility: hidden;
+#div2{
+  background-color: rgba(255,0,0,0.5)
+}
+
+#div3{
+  background-color: rgba(255,0,0,0)
 }
