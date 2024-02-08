@@ -1,33 +1,29 @@
-#navbar{
-  background-color: black;
-  color:white;
-  display: flex;
-  justify-content: space-evenly;
-  height:2em;
-  align-items: center;
+div{
+  width: 100px;
+  height: 100px;
+  background-color: deeppink;
 }
 
-li{
-  list-style-type: none;
+@media (width: 600px){
+  div{
+    background-color: red;
+  }
 }
 
-a{
-  text-decoration: none;
-  color: white;
+@media (min-width:600px){
+  div{
+    background-color: blue;
+  }
 }
 
+/* @media (max-width:600px){
+  div{
+    background-color: blue;
+  }
+} */
 
-#outter{
-  width: 500px;
-  height: 500px;
-  background-color:red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#inner{
-  width: 150px;
-  height: 150px;
-  background-color: aqua;
+@media (min-width:200px) and (max-width:300px){
+  div{
+    background-color: green;
+  }
 }
