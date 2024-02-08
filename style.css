@@ -11,7 +11,7 @@ div{
 
 #container{
   height: 200px;
-  width: 600px;
+  width: 900px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -28,11 +28,12 @@ div{
 
 #box3{
   background-color:rgb(127, 255, 155);
-  flex-shrink: 3;
+  flex-grow:1;
 }
 
 #box4{
-  background-color:chocolate
+  background-color:chocolate;
+  flex-grow:2;
 }
 
 #box5{
