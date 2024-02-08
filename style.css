@@ -8,6 +8,13 @@ div{
 
 #box2{
   background-color: red;
-  position: sticky;
-  top:0;
+  position: relative;
+  right:-20px;
+  top: 20px;
+  z-index: 1;
+}
+
+#box3{
+  background-color: pink;
+  position: relative;
 }
