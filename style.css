@@ -17,12 +17,14 @@ div:hover{
   background-color: dodgerblue;
   color:white;
   font-size: 20px;
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
+  transform: scale(2)
 }
 
 div:active{
   background-color: rgb(11, 87, 14);
   color:white;
   font-size: 20px;
-  transform: rotateX(90deg)
+  transform: rotate(90deg) scale(1);
+
 }
