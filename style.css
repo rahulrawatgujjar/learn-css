@@ -1,23 +1,28 @@
 div{
-  width:200px;
-  height:200px;
+  width: 150px;
+  height: 150px;
   background-color:rgb(234, 117, 75);
   border:1px solid black;
+  position:relative;
+  top:200px;
+  left:200px;
   /* transition-property:all;
   transition-duration: 2s;
   transition-timing-function:linear;
   transition-delay: 1s; */
-  transition: all 2s linear 1s;
+  transition: all 2s linear;
 }
 
 div:hover{
   background-color: dodgerblue;
   color:white;
   font-size: 20px;
+  transform: rotate(90deg);
 }
 
 div:active{
   background-color: rgb(11, 87, 14);
   color:white;
   font-size: 20px;
+  transform: rotateX(90deg)
 }
