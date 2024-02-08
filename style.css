@@ -1,24 +1,14 @@
-div{
-  background-color:aqua;
-  width:100px;
-  height: 100px;
-  display: inline-block;
-  border: 1px solid black;
+body{
+  position:relative;
 }
 
-#box2{
-  background-image: url("profile_picture.jpg");
+#nature{
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgb(5, 75, 5);
+  background-image: url("nature_photo.jpg");
   background-size: cover;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
-
-#box3{
-  background-image: url("profile_picture.jpg");
-  background-size: auto;
-}
-
-#box4{
-  background-image: url("profile_picture.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
