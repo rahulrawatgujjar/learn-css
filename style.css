@@ -1,41 +1,17 @@
-body{
-  text-align: center;
-}
-
-div{
-  height:100px;
-  width: 150px;
-  border: 1px solid black;
-  display: inline-block;
-}
-
-#container{
-  height: 200px;
-  width: 900px;
+#navbar{
+  background-color: black;
+  color:white;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+  height:2em;
+  align-items: center;
 }
 
-#box1{
-  background-color: rgb(183, 84, 196);
+li{
+  list-style-type: none;
 }
 
-#box2{
-  background-color:aqua;
-  height: 120px;
-}
-
-#box3{
-  background-color:rgb(127, 255, 155);
-  flex-grow:1;
-}
-
-#box4{
-  background-color:chocolate;
-  flex-grow:2;
-}
-
-#box5{
-  background-color:crimson
+a{
+  text-decoration: none;
+  color: white;
 }
