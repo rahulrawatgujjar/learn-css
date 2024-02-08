@@ -1,0 +1,18 @@
+div{
+  width:200px;
+  height:200px;
+  background-color:rgb(234, 117, 75);
+  border:1px solid black;
+}
+
+div:hover{
+  background-color: dodgerblue;
+  color:white;
+  font-size: 20px;
+}
+
+div:active{
+  background-color: rgb(11, 87, 14);
+  color:white;
+  font-size: 20px;
+}
