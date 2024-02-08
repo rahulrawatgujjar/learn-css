@@ -12,16 +12,25 @@ div{
   animation-delay: 0s;
   animation-direction:alternate;
   animation-iteration-count: infinite; */
-  animation: boxAnime 2s linear 0s alternate infinite;
+  animation: boxAnime 5s linear 0s alternate infinite;
 }
 
 
 @keyframes boxAnime{
-  from{
+  0%{
     left: 0px;
+    background-color: rgb(213, 137, 137);
   }
-  to{
-    left: 400px;
+
+  50%{
+    background-color: rgb(46, 61, 225);
+    color: gold;
+  }
+
+  100%{
+    left: 600px;
+    background-color: rgb(2, 67, 2);
+    color: white;
   }
 }
 
@@ -29,9 +38,5 @@ div{
 
 
 /* div:hover{
-
-}
-
-div:active{
-
 } */
+
