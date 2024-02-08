@@ -7,14 +7,18 @@ div{
 }
 
 #box2{
-  background-color: red;
-  position: relative;
-  right:-20px;
-  top: 20px;
-  z-index: 1;
+  background-image: url("profile_picture.jpg");
+  background-size: cover;
 }
 
 #box3{
-  background-color: pink;
-  position: relative;
+  background-image: url("profile_picture.jpg");
+  background-size: auto;
 }
+
+#box4{
+  background-image: url("profile_picture.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
