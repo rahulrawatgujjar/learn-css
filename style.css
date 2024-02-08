@@ -6,28 +6,32 @@ div{
   position:relative;
   top:200px;
   left:200px;
-  /* transition-property:all;
-  transition-duration: 2s;
-  transition-timing-function:linear;
-  transition-delay: 1s; */
-  transition: all 2s linear;
+  /* animation-name: boxAnime;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-direction:alternate;
+  animation-iteration-count: infinite; */
+  animation: boxAnime 2s linear 0s alternate infinite;
 }
 
-div:hover{
-  /* background-color: dodgerblue;
-  color:white;
-  font-size: 20px; */
-  /* transform: rotate(90deg); */
-  /* transform: scale(2) */
-  /* transform: translate(150px); */
-  transform: skew(30deg);
+
+@keyframes boxAnime{
+  from{
+    left: 0px;
+  }
+  to{
+    left: 400px;
+  }
+}
+
+
+
+
+/* div:hover{
+
 }
 
 div:active{
-  /* background-color: rgb(11, 87, 14);
-  color:white;
-  font-size: 20px; */
-  /* transform: rotate(90deg) scale(1); */
-  transform: translateY(-150px)
 
-}
+} */
