@@ -8,7 +8,7 @@ body{
   border: 1px solid rgb(5, 75, 5);
   background-image: url("nature_photo.jpg");
   background-size: cover;
-  position: absolute;
+  position: fixed;
   right: 0px;
   bottom: 0px;
 }
