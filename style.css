@@ -4,17 +4,19 @@ body{
 
 div{
   height:100px;
-  width: 100px;
+  width: 150px;
   border: 1px solid black;
   display: inline-block;
 }
 
 #container{
-  height: 200px;
-  width: 800px;
+  height: 600px;
+  width: 600px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap:wrap;
+  /* align-items:center; */
 }
 
 #box1{
@@ -23,7 +25,7 @@ div{
 
 #box2{
   background-color:aqua;
-  /* height: 120px; */
+  height: 120px;
 }
 
 #box3{
