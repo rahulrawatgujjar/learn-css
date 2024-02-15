@@ -1,0 +1,62 @@
+@media (max-width: 940px) {
+  .box {
+    overflow:hidden;
+    width: 15rem;
+    display:inline-block;
+    margin-left:10px;
+  }
+  .shop-section {
+    overflow-x:scroll;
+    /* background-color: crimson; */
+    display: block;
+    white-space: nowrap;
+  }
+
+  .hero-msg {
+    padding:0px 10px 0px 10px;
+    margin-right:10px;
+    margin-left: 10px;
+    height: 4.5rem;
+  }
+
+  .panel-outter {
+    overflow-x:scroll;
+  }
+
+  .panel-inner {
+    overflow: hidden;
+    width: 940px;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  .navbar2{
+    display:block;
+    background-color: #131921;
+    color:white;
+  }
+
+  .part1{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .part2{
+    margin: 1px 10px 1px 10px;
+  }
+  .nav-search{
+    width: 100%;
+  }
+  .nav-empty{
+    width: 30%;
+  }
+}
+
+
+@media (min-width: 940.1px) {
+  .navbar2{
+    display: none;
+  }
+}
